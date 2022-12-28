@@ -1,15 +1,16 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Outlet } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import "./Layout.scss";
 
 const Layout = () => {
   return (
-    <div>
+    <Fragment>
       <Header />
       <Outlet />
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 

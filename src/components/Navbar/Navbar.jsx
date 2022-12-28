@@ -2,7 +2,13 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className='navbar'>
+        <div className="navbarWrapper">
+            <div className="left">Left</div>
+            <div className="center">Center</div>
+            <div className="right">Rİght</div>
+        </div>
+    </div>
   )
 }
 

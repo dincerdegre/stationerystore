@@ -1,5 +1,5 @@
 .slider {
-  height: calc(100vh - 120px);
+  height: calc(80vh - 120px);
   width: 100vw;
   position: relative;
   margin: 0;
@@ -21,7 +21,7 @@
         right: auto;
         left: auto;
         width: 100%;
-        padding: calc(50vh - 160px) 0 5rem 0;
+        padding: calc(40vh - 160px) 0 5rem 0;
         font-size: 1.4rem;
         font-style: normal;
         line-height: 2rem;
@@ -66,13 +66,13 @@
     position: absolute;
     left: 1rem;
     top: 0;
-    padding: calc(50vh - 100px) 0 5rem 0;
+    padding: calc(40vh - 100px) 0 5rem 0;
   }
   .next {
     position: absolute;
     right: 1rem;
     top: 0;
-    padding: calc(50vh - 100px) 0 5rem 0;
+    padding: calc(40vh - 100px) 0 5rem 0;
   }
   .arrowBack,
   .arrowForward {

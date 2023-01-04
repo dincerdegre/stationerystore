@@ -1,0 +1,90 @@
+.cartPageContainer {
+  width: 80%;
+  margin: 3rem auto;
+  .cartPageTop {
+    width: 100%;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgb(233, 233, 233);
+  }
+  h2 {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+  span {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+  .cartPageMiddle {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 2rem 0;
+    .cartPageLeft {
+      flex: 2;
+      border-right: 1px solid rgb(233, 233, 233);
+      .emptyCart {
+        width: 100%;
+        padding: 1rem 0;
+        text-align: center;
+      }
+    }
+    .cartPageRight {
+      flex: 1;
+      padding: 0 1rem;
+      .stickyOrder {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 80px;
+        h4 {
+          font-size: 1.3rem;
+        }
+        .orderSummary {
+          display: flex;
+          flex-direction: column;
+          padding-top: 1rem;
+          .summaryItem {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 0.8rem;
+            border-bottom: 1px solid rgb(233, 233, 233);
+            .sumTitle {
+              font-size: 1rem;
+              font-weight: 500;
+              color: rgb(31, 31, 31);
+            }
+            .sumAmount {
+              font-size: 1rem;
+              font-weight: 600;
+              color: rgb(85, 85, 85);
+            }
+            .sumTotal {
+              font-size: 1.2rem;
+            }
+          }
+          .summaryCheckout {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 0.8rem;
+            .sumCheckout {
+              width: 98%;
+              padding: 0.8rem 0;
+              border-radius: 0.3rem;
+              font-size: 1.1rem;
+              border: 1px solid rgb(236, 236, 236);
+              text-align: center;
+              cursor: pointer;
+              overflow: hidden;
+              background-color: rgb(24, 129, 63);
+              color: white;
+              &:hover {
+                background-color: rgb(34, 197, 94, 1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

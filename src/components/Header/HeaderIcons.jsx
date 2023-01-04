@@ -1,10 +1,12 @@
-import React, { Fragment } from "react";
+import React, { useContext } from "react";
+import CartContext from "../../context/cart-context";
 import SearchIcon from "@mui/icons-material/Search";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import "./HeaderIcons.scss";
 
-const HeaderIcons = () => {
+const HeaderIcons = ({cartOnClick}) => {
+  const cartContext = useContext(CartContext);
   return (
     <div className="icons">
       <div className="searchLink">
@@ -13,9 +15,9 @@ const HeaderIcons = () => {
       <div className="userLink">
       <PersonOutlineOutlinedIcon fontSize="large" />
       </div>
-      <div className="cartLink">
+      <div className="cartLink" onClick={cartOnClick} >
       <ShoppingCartOutlinedIcon fontSize="large" />
-      <span>0</span>
+      {cartContext.items.length > 0 ? <span>{cartContext.items.length}</span> : ""}
       </div>
     </div>
   );

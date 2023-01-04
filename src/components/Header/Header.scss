@@ -1,5 +1,9 @@
 .header {
   height: 70px;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index:99;
   background-color: white;
   margin: 0 auto;
   padding: 0 auto;
@@ -19,8 +23,8 @@
       letter-spacing: 2px;
       flex: 2;
       justify-content: flex-start;
-      .link {font-weight:500;}
-      .link:hover {text-decoration: underline;}
+      .link {font-weight:600;}
+      .link:hover {color:#a4161a;}
     }
     .center {
         display: flex;

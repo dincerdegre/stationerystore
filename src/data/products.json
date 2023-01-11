@@ -1,0 +1,224 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Mechanical 0.7 Pencil",
+      "excerpt": "Versatile Pen",
+      "slug": "mechanical-0-7-pencil",
+      "image": "/images/products/product01.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "1.99",
+      "oldprice": "2.50",
+      "category": "school"
+    },
+    {
+      "id": "2",
+      "title": "Notebook Black",
+      "excerpt": "Notebooks",
+      "slug": "notebook-black",
+      "image": "/images/products/product02.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "3.99",
+      "oldprice": "6.50",
+      "category": "office"
+    },
+    {
+      "id": "3",
+      "title": "12 Digit Calculator",
+      "excerpt": "Calculators",
+      "slug": "12-digit-calculator",
+      "image": "/images/products/product03.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "9.99",
+      "oldprice": "11.99",
+      "category": "office"
+    },
+    {
+      "id": "4",
+      "title": "Red-Blue Eraser",
+      "excerpt": "Erasers",
+      "slug": "eraser",
+      "image": "/images/products/product04.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "0.49",
+      "oldprice": "0.99",
+      "category": "school"
+    },
+    {
+      "id": "5",
+      "title": "Paper Holder",
+      "excerpt": "Office Items",
+      "slug": "paper-holder",
+      "image": "/images/products/product05.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "4.99",
+      "oldprice": "7.50",
+      "category": "office"
+    },
+    {
+      "id": "6",
+      "title": "Plastic Sharpener",
+      "excerpt": "Sharpeners",
+      "slug": "plastic-sharpener",
+      "image": "/images/products/product06.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "0.99",
+      "oldprice": "1.50",
+      "category": "school"
+    },
+    {
+      "id": "7",
+      "title": "Archive Staple",
+      "excerpt": "Staples",
+      "slug": "archive-staple",
+      "image": "/images/products/product07.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "29.99",
+      "oldprice": "39.99",
+      "category": "office"
+    },
+    {
+      "id": "8",
+      "title": "Magazine Document Holder",
+      "excerpt": "Office Items",
+      "slug": "magazine-document-holder",
+      "image": "/images/products/product08.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "14.99",
+      "oldprice": "24.99",
+      "category": "office"
+    },
+    {
+      "id": "9",
+      "title": "Pencil Box",
+      "excerpt": "Bags",
+      "slug": "pencil-box",
+      "image": "/images/products/product09.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "9.99",
+      "oldprice": "14.99",
+      "category": "school"
+    },
+    {
+      "id": "10",
+      "title": "Triangle Ruler",
+      "excerpt": "Rulers",
+      "slug": "triangle-ruler",
+      "image": "/images/products/product10.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "4.99",
+      "oldprice": "9.99",
+      "category": "school"
+    },
+    {
+      "id": "11",
+      "title": "Keychain Figure",
+      "excerpt": "Gifts",
+      "slug": "keychain-figure",
+      "image": "/images/products/product11.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "2.99",
+      "oldprice": "6.99",
+      "category": "gift"
+    },
+    {
+      "id": "12",
+      "title": "Red Leather Bag",
+      "excerpt": "Bags",
+      "slug": "red-leather-bag",
+      "image": "/images/products/product12.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "9.99",
+      "oldprice": "12.99",
+      "category": "gift"
+    },
+    {
+      "id": "13",
+      "title": "Bomb Shaped Mug",
+      "excerpt": "Gifts",
+      "slug": "bomb-shaped-mug",
+      "image": "/images/products/product13.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "8.99",
+      "oldprice": "11.99",
+      "category": "gift"
+    },
+    {
+      "id": "14",
+      "title": "Colored 6 Gel Pen",
+      "excerpt": "Pens",
+      "slug": "colored-6-gel-pen",
+      "image": "/images/products/product14.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "0.99",
+      "oldprice": "1.99",
+      "category": "school"
+    },
+    {
+      "id": "15",
+      "title": "Office Scissor",
+      "excerpt": "Office Items",
+      "slug": "office-scissor",
+      "image": "/images/products/product15.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "1.99",
+      "oldprice": "2.99",
+      "category": "office"
+    },
+    {
+      "id": "16",
+      "title": "Notebook Hard Cover",
+      "excerpt": "Notebooks",
+      "slug": "notebook-hard-cover",
+      "image": "/images/products/product16.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "4.99",
+      "oldprice": "9.99",
+      "category": "office"
+    },
+    {
+      "id": "17",
+      "title": "Toy Model Dog",
+      "excerpt": "Decorations",
+      "slug": "toy-model-dog",
+      "image": "/images/products/product17.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "8.99",
+      "oldprice": "12.99",
+      "category": "gift"
+    },
+    {
+      "id": "18",
+      "title": "Date Toy Model Armchair",
+      "excerpt": "Decorations",
+      "slug": "date-toy-model-armchair",
+      "image": "/images/products/product18.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "8.99",
+      "oldprice": "11.99",
+      "category": "gift"
+    },
+    {
+      "id": "19",
+      "title": "Wooden Tray",
+      "excerpt": "Gifts",
+      "slug": "wooden-tray",
+      "image": "/images/products/product19.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "11.99",
+      "oldprice": "14.99",
+      "category": "gift"
+    },
+    {
+      "id": "20",
+      "title": "Golden Girl Calendar",
+      "excerpt": "Gifts",
+      "slug": "golden-girl-calendar",
+      "image": "/images/products/product20.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec egestas urna. Nunc blandit diam magna, molestie dapibus purus imperdiet eu. Fusce ac pulvinar dolor. Nulla venenatis nisl ac vulputate vestibulum. Integer nec neque a lectus ultrices ultricies. Morbi blandit tortor in euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tempor ante. Fusce dapibus libero eu ullamcorper pellentesque. In hac habitasse platea dictumst. Sed sodales at risus cursus luctus. Maecenas eu velit finibus leo scelerisque aliquam ac laoreet ligula. Donec ullamcorper eu massa eget iaculis. Pellentesque quis malesuada diam. Quisque dignissim tortor a nunc ullamcorper viverra.",
+      "price": "9.99",
+      "oldprice": "12.99",
+      "category": "gift"
+    }
+  ]
+}

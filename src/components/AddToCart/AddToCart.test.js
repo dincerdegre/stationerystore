@@ -9,11 +9,13 @@ describe('AddToCart component',()=>{
         const addToCartEl = screen.getByText("Add to Cart");
         expect(addToCartEl).toBeInTheDocument();
     });
+    
     test('Render AddShoppingCartIcon',()=>{
         render(<AddToCart />);
         const addToCartIconEl = screen.getByTestId("AddShoppingCartIcon");
         expect(addToCartIconEl).toBeInTheDocument();
     });
+
     test('Should call onClick when the AddtoCart is clicked',()=>{
         const onClick = jest.fn();
         render(<AddToCart onClick={onClick} />);

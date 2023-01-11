@@ -4,12 +4,12 @@ import userEvent from "@testing-library/user-event";
 import AddToCart from "./AddToCart";
 
 describe('AddToCart component',()=>{
-    test('Render "AddToCart" component',()=>{
+    test('Render component',()=>{
         render(<AddToCart />);
         const addToCartEl = screen.getByText("Add to Cart");
         expect(addToCartEl).toBeInTheDocument();
     });
-    test('Render "AddShoppingCartIcon" component',()=>{
+    test('Render AddShoppingCartIcon',()=>{
         render(<AddToCart />);
         const addToCartIconEl = screen.getByTestId("AddShoppingCartIcon");
         expect(addToCartIconEl).toBeInTheDocument();

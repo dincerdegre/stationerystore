@@ -4,7 +4,7 @@ import Loader from "./Loader";
 
 describe('Loader component',()=>{
 
-    test('render "Loader" component',()=>{
+    test('Render "Loader" component',()=>{
         render(<Loader />);
         const loaderEl = screen.getByTestId("loader");
         expect(loaderEl).toBeInTheDocument();

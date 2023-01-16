@@ -1,0 +1,30 @@
+.searchButton,
+.userButton,
+.cartButton {
+  padding: 0.3rem;
+  margin: 0 0.3rem;
+  cursor: pointer;
+  color: rgb(65, 65, 65);
+  &:hover {
+    background-color: rgb(243, 243, 243);
+    border-radius: 2rem;
+  }
+}
+.cartButton {
+  position: relative;
+  font-size: 14px;
+  span {
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

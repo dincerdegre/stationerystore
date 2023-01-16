@@ -1,0 +1,25 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.8rem;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    .title {
+      font-size: 1rem;
+      font-weight: 500;
+      color: rgb(31, 31, 31);
+    }
+    .amount {
+      font-size: 1rem;
+      font-weight: 600;
+      color: rgb(85, 85, 85);
+    }
+    .total {
+        font-size: 1.2rem;
+    }
+  }
+}

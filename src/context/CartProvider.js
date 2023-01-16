@@ -18,19 +18,22 @@ const CartProvider = ({ children }) => {
         return item.id.toString() === i.id.toString();
       });
       const existingItem = items[existingItemIndex];
+      let updatedItems;
       if (existingItem) {
         existingItem.quantity += item.quantity;
-        let updatedItems = [...items];
+        updatedItems = [...items];
         updatedItems[existingItemIndex] = existingItem;
         setItems(updatedItems);
       } else {
-        setItems([...items, item]);
+        updatedItems = [...items];
+        updatedItems.push(item);
+        setItems(updatedItems);
       }
       // Local Storage
       localStorage.setItem(
         "cart",
         JSON.stringify({
-          items: [...items, item],
+          items: [...updatedItems],
         })
       );
     },

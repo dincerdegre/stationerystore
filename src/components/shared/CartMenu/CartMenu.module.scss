@@ -1,0 +1,80 @@
+.cartMenu {
+  position: fixed;
+  top: 70px;
+  right: 4px;
+  z-index: 100;
+  background-color: white;
+  border-radius: 0.3rem;
+  min-width: 450px;
+  max-height: calc(100% - 70px);
+  overflow-y:auto;
+  -webkit-box-shadow: 0px 0px 7px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 7px -5px rgba(0, 0, 0, 0.6);
+  .top {
+    padding: 1rem;
+    height: 100%;
+    h3 {
+      font-size: 1.5rem;
+      padding:0;
+    }
+  }
+  .middle {
+    padding: 0.5rem 1rem 1rem 1rem;
+    position: relative;
+    .emptyCart {
+        width: 100%;
+        padding:1rem 0;
+        text-align: center;
+    }
+  }
+  .bottom {
+    padding: 1.5rem 1rem;
+    background-color: rgb(243, 243, 243, 0.4);
+    .subtotal {
+      display: flex;
+      justify-content: space-between;
+      .left {
+        h4 {
+          font-size: 1.3rem;
+        }
+        span {
+          font-size: 0.8rem;
+          line-height: 0.6rem;
+        }
+      }
+      .right {
+        h4 {
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .buttons {
+      padding: 1rem 0 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .cartButton {
+        width: 48%;
+        padding: 0.8rem 0;
+        border-radius: 0.3rem;
+        font-size: 1.1rem;
+        border: 1px solid rgb(236, 236, 236);
+        background-color: white;
+        color: rgb(34, 34, 34);
+        text-align: center;
+        cursor: pointer;
+        overflow: hidden;
+        &:hover {
+          background-color: rgb(236, 236, 236);
+        }
+        &.checkout {
+          background-color: rgb(24, 129, 63);
+          color: white;
+          &:hover {
+            background-color: rgb(34, 197, 94, 1);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.priceTextContainer {
+  display: flex;
+  align-items: center;
+  .price {
+    margin: 0 0.5rem 0 0;
+    border: 2px solid rgb(34, 197, 94, 1);
+    border-radius: 0.5rem;
+    padding: 0.3rem 0;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    min-width: 110px;
+    text-align: center;
+    color: rgb(34, 197, 94, 1);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    &:hover {
+      border: 2px solid rgb(24, 129, 63);
+      background-color: rgb(243, 243, 243);
+    }
+  }
+  .oldPrice {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    padding-left: 2rem;
+    color: rgb(131, 131, 131);
+    text-decoration: line-through;
+  }
+}

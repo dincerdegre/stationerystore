@@ -1,19 +1,19 @@
-import React from 'react'
-import Categories from '../../components/Categories/Categories';
-import Newsletter from '../../components/Newsletter/Newsletter';
-import PromoBanner from '../../components/PromoBanner/PromoBanner';
-import Slider from '../../components/Slider/Slider';
-import './Home.scss';
+import React from "react";
+import Products from "../../components/Home/Products/Products";
+import Newsletter from "../../components/Home/Newsletter/Newsletter";
+import Categories from "../../components/Home/Categories/Categories";
+import Slider from "../../components/Home/Slider/Slider";
+import "./Home.scss";
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className="home">
       <Slider />
       <Newsletter />
-      <PromoBanner />
       <Categories />
+      <Products />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

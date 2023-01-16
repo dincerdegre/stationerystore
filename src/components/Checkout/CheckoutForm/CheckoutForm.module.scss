@@ -1,0 +1,39 @@
+.checkoutForm {
+  h3 {
+    font-size: 1.5rem;
+    padding: 1.5rem 0 1.2rem 0;
+  }
+  .item {
+    width: 60%;
+    label {
+      display: block;
+      margin: 1rem 0 0.3rem 0;
+      color: rgb(83, 83, 83);
+      font-size: 0.9rem;
+    }
+    input {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      border-radius: 0.5rem;
+      border: 1px solid rgb(228, 228, 228);
+    }
+    textarea {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      border-radius: 0.5rem;
+      border: 1px solid rgb(228, 228, 228);
+    }
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .half {
+        width: 45%;
+    }
+  }
+}

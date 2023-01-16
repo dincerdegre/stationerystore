@@ -1,0 +1,41 @@
+.mainImage {
+  width: 99%;
+  height: auto;
+  margin: 0 auto;
+  flex: 5;
+  border: 2px solid rgb(248 250 252);
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100%;
+    margin: 0 auto;
+    max-height: 800px;
+    object-fit: cover;
+  }
+}
+.imageThumbs {
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 99%;
+  margin: 0.5rem auto;
+  img {
+    width: 18.5%;
+    height: 150px;
+    margin: 0 1% 0 0;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid rgb(248 250 252);
+    border-radius: 0.4rem;
+    overflow: hidden;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      border: 2px solid rgb(238, 238, 238);
+    }
+  }
+}

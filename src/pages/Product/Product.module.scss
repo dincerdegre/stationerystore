@@ -1,0 +1,46 @@
+.productContainer {
+  width: 80%;
+  margin: 3rem auto;
+  display: flex;
+  .left {
+    flex: 1;
+  }
+  .right {
+    flex: 1;
+    flex-direction: column;
+    margin: 0 1rem;
+    .title {
+      padding: 0.5rem 0;
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+    .info {
+      padding: 0.4rem 0 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      flex-direction: column;
+      .priceInfo,
+      .amountCartInfo {
+        padding: 0 0 1.5rem 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .amountCartInfo {
+        padding: 3rem 0 1.5rem 0;
+      }
+    }
+    .desc {
+      padding: 1rem 0;
+      h2 {
+        font-weight: 2.2rem;
+        padding-bottom: 1rem;
+      }
+      p {
+        padding: 0.5rem;
+        text-indent: 5px;
+      }
+    }
+  }
+}

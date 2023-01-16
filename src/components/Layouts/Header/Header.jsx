@@ -1,36 +1,48 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import CartList from "../CartList/CartList";
-import Navbar from "../Navbar/Navbar";
-import "./Header.scss";
-import HeaderIcons from "./HeaderIcons";
+import CartMenu from "../../shared/CartMenu/CartMenu";
+import HeaderRight from "../../shared/HeaderRight/HeaderRight";
+import Navbar from "../../shared/Navbar/Navbar";
+import classes from "./Header.module.scss";
 
 const Header = () => {
   const [openCart, setOpenCart] = useState(false);
+  const [isCartButtonClicked,setIsCartButtonClicked] = useState(false);
   const openCartHandler = () => {
-    setOpenCart((prev) => !prev);
+    if(!isCartButtonClicked && openCart === false){
+        setOpenCart(true);
+      } else {
+        setOpenCart(false);
+      }
   };
-
   const closeCartHandler = () => {
     setOpenCart(false);
   };
 
+  useEffect(() => {
+    if(openCart) {
+      setIsCartButtonClicked(true);
+    } else {
+      setIsCartButtonClicked(false);
+    }
+  },[openCart]);
+
   return (
-    <div className="header">
-      <div className="headerWrapper">
-        <div className="left">
+    <div className={classes.header}>
+      <div className={classes.wrapper}>
+        <div className={classes.left}>
           <Link className="link" to="/">
             STATIONARY STORE
           </Link>
         </div>
-        <div className="center">
+        <div className={classes.center}>
           <Navbar />
         </div>
-        <div className="right">
-          <HeaderIcons cartOnClick={openCartHandler} />
+        <div className={classes.right}>
+          <HeaderRight cartOnClick={openCartHandler} />
         </div>
       </div>
-      {openCart && <CartList onCartClose={closeCartHandler} onOpenCart={openCart} />}
+      {openCart && <CartMenu onCartClose={closeCartHandler} cartButtonClicked={isCartButtonClicked} />}
     </div>
   );
 };

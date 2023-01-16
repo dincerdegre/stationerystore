@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "./CheckoutForm.module.scss";
 
-const CheckoutForm = () => {
+const CheckoutForm = ({onSubmit}) => {
   return (
     <div className={classes.checkoutForm}>
-      <form>
+      <form onSubmit={onSubmit}>
         <h3>Contact Info</h3>
         <div className={classes.item} id="phonenumber">
           <label htmlFor="phone">Your Phone Number</label>
@@ -39,7 +39,7 @@ const CheckoutForm = () => {
           </div>
         </div>
         <div className={classes.item}>
-          <label for="address">Address</label>
+          <label htmlFor="address">Address</label>
           <textarea id="address" name="address" rows="4" cols="50"></textarea>
         </div>
         <h3>Payment Info</h3>

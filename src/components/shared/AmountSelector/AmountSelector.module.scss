@@ -1,0 +1,40 @@
+.selectorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 0;
+  font-weight: 900;
+  max-width: 100%;
+  border: 2px solid rgb(243, 243, 243);
+  border-radius: 0.5rem;
+  .smallSize {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding: 0.6rem 0.9rem;
+  }
+  .mediumSize {
+    font-size: 1rem;
+    line-height: 0.6rem;
+    padding: 0.6rem 0.9rem;
+  }
+  .largeSize {
+    font-size: 1.6rem;
+    line-height: 1rem;
+    padding: 0.9rem 1.2rem;
+  }
+  button {
+    min-height: 14px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(233, 233, 233);
+    color: rgb(49, 49, 49);
+    &:hover {
+      background-color: rgb(243, 243, 243);
+    }
+  }
+  .quantity {
+    color: rgb(49, 49, 49);
+  }
+}

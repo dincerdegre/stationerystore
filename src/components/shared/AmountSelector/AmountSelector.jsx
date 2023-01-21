@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Button from '../../UIElements/Button/Button';
 import useCounter from "../../../hooks/useCounter";
 import classes from "./AmountSelector.module.scss";
 
@@ -22,13 +23,13 @@ const AmountSelector = ({ onAmountChange, val = 1, size = "medium" }) => {
   
   return (
     <div className={classes.selectorContainer}>
-      <button onClick={decrementHandler} className={`${fontSize}`}>
+      <Button onClick={decrementHandler} className={`${fontSize}`}>
         -
-      </button>
-      <div className={`${classes.quantity} ${fontSize} noSelect`}>{value}</div>
-      <button onClick={incrementHandler} className={`${fontSize}`}>
+      </Button>
+      <div className={`${classes.quantity} ${fontSize} noSelect`} data-testid="value">{value}</div>
+      <Button onClick={incrementHandler} className={`${fontSize}`}>
         +
-      </button>
+      </Button>
     </div>
   );
 };

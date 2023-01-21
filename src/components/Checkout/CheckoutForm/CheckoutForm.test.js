@@ -17,9 +17,15 @@ describe("CheckoutForm Component", () => {
         expect(firstNameEl).toBeInTheDocument();
         const lastNameEl = screen.getByPlaceholderText(/Last Name/i);
         expect(lastNameEl).toBeInTheDocument();
-        const addressEl = screen.getByLabelText("Address");
+        const addressEl = screen.getByLabelText(/address/i);
         expect(addressEl).toBeInTheDocument();
-        const cardNumberEl = screen.getByLabelText("Card Number");
+        const cardNumberEl = screen.getByLabelText(/card number/i);
         expect(cardNumberEl).toBeInTheDocument();
+        const cardOwnerEl = screen.getByLabelText(/name on card/i);
+        expect(cardOwnerEl).toBeInTheDocument();
+        const expEl = screen.getByLabelText(/Expiration Date/i);
+        expect(expEl).toBeInTheDocument();
+        const cvcEl = screen.getByLabelText(/cvc/i);
+        expect(cvcEl).toBeInTheDocument();
     });
 });

@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import Button from '../../UIElements/Button/Button';
 import classes from "./Footer.module.scss";
 
 const Footer = () => {
@@ -14,19 +14,19 @@ const Footer = () => {
           <h3>Links</h3>
           <ul>
             <li>
-              <Link to="/">School</Link>
+              <Button to="/">School</Button>
             </li>
             <li>
-              <Link to="/">Office</Link>
+              <Button to="/">Office</Button>
             </li>
             <li>
-              <Link to="/">Gifts & Decorations</Link>
+              <Button to="/">Gifts & Decorations</Button>
             </li>
             <li>
-              <Link to="/">About</Link>
+              <Button to="/">About</Button>
             </li>
             <li>
-              <Link to="/">Contact</Link>
+              <Button to="/">Contact</Button>
             </li>
           </ul>
         </div>

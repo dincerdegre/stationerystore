@@ -11,6 +11,9 @@
     align-items: center;
     justify-content: space-between;
     .mail {
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
       input {
         padding: 10px;
         border: none;

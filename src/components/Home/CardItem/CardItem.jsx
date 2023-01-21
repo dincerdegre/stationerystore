@@ -1,8 +1,8 @@
 import React,{ useContext,useState } from "react";
-import { Link } from "react-router-dom";
 import CartContext from "../../../context/cart-context";
 import AmountSelector from "../../shared/AmountSelector/AmountSelector";
 import PriceButton from "../PriceButton/PriceButton";
+import Button from "../../UIElements/Button/Button";
 import classes from "./CardItem.module.scss";
 
 const CardItem = ({id, title, excerpt, image, slug,price, oldPrice }) => {
@@ -23,13 +23,13 @@ const CardItem = ({id, title, excerpt, image, slug,price, oldPrice }) => {
     setSelectedAmount(quantity);
   }
   return (
-    <div className={classes.cardItem}>
+    <div className={classes.cardItem} id={`card-${id}`} data-testid="cardItem">
       <div className={classes.imageContainer}>
-        <Link to={`/product/${slug}`}>
+        <Button to={`/product/${slug}`} dataTestid="cardLink">
           <div className={classes.imageWrapper}>
-            <img src={image[0]} alt={title} />
+            {image && <img src={image[0]} alt={title} /> }
           </div>
-        </Link>
+        </Button>
       </div>
       <div className={classes.infoContainer}>
         <h3>{title}</h3>

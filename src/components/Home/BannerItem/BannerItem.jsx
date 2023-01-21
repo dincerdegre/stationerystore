@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Button from '../../UIElements/Button/Button';
 import classes from "./BannerItem.module.scss";
 
 const BannerItem = ({ title, desc, image, link, align }) => {
@@ -21,7 +21,7 @@ const BannerItem = ({ title, desc, image, link, align }) => {
             <div className={classes.title}>{title}</div>
             <div className={classes.desc}>{desc}</div>
         </div>
-        <Link to={link} className={classes.link}></Link>
+        <Button to={link} className={classes.link}></Button>
       </div>
     </div>
   );

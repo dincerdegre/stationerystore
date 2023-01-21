@@ -1,10 +1,10 @@
 import React, { useContext, useEffect, useRef } from "react";
 import CartContext from "../../../context/cart-context";
-import { Link } from "react-router-dom";
+import Button from '../../UIElements/Button/Button';
 import classes from "./CartMenu.module.scss";
 import ListItem from "../ListItem/ListItem";
 
-const CartMenu = ({ onCartClose, cartButtonClicked }) => {
+const CartMenu = ({ onCartClose }) => {
   const cartContext = useContext(CartContext);
   const ref = useRef(null);
   const products = cartContext.items;
@@ -66,16 +66,16 @@ const CartMenu = ({ onCartClose, cartButtonClicked }) => {
           </div>
         </div>
         <div className={classes.buttons}>
-          <Link to="/cart" className={classes.cartButton} onClick={onCartClose}>
+          <Button to="/cart" className={classes.cartButton} onClick={onCartClose}>
             View Cart
-          </Link>
-          <Link
+          </Button>
+          <Button
             to="/checkout"
             className={`${classes.cartButton} ${classes.checkout}`}
             onClick={onCartClose}
           >
             Checkout
-          </Link>
+          </Button>
         </div>
       </div>
     </div>

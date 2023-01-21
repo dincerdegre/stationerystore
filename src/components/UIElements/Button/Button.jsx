@@ -11,17 +11,18 @@ const Button = ({
   ariaLabel,
   className,
   children,
+  dataTestid,
 }) => {
   if (href) {
     return (
-      <a className={className} href={href}>
+      <a className={className} href={href} data-testid={dataTestid}>
         {children}
       </a>
     );
   }
   if (to) {
     return (
-      <Link to={to} exact={exact} className={className}>
+      <Link to={to} exact={exact} className={className} data-testid={dataTestid}>
         {children}
       </Link>
     );
@@ -33,6 +34,7 @@ const Button = ({
       className={className}
       aria-label={ariaLabel}
       disabled={disabled}
+      data-testid={dataTestid}
     >
       {children}
     </button>

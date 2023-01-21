@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Button from '../../UIElements/Button/Button';
 import CartMenu from "../../shared/CartMenu/CartMenu";
 import HeaderRight from "../../shared/HeaderRight/HeaderRight";
 import Navbar from "../../shared/Navbar/Navbar";
@@ -31,9 +32,9 @@ const Header = () => {
     <div className={classes.header}>
       <div className={classes.wrapper}>
         <div className={classes.left}>
-          <Link className="link" to="/">
+          <Button className="link" to="/">
             STATIONARY STORE
-          </Link>
+          </Button>
         </div>
         <div className={classes.center}>
           <Navbar />

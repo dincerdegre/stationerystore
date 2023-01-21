@@ -15,13 +15,13 @@ const Slider = () => {
     setCurrentSlide(
       currentSlide === imageData.length - 1 ? 0 : (prev) => prev + 1
     );
-  }, [currentSlide]);
+  }, [currentSlide,imageData.length]);
 
   const prevSlideHandler = useCallback(() => {
     setCurrentSlide(
       currentSlide === 0 ? imageData.length - 1 : (prev) => prev - 1
     );
-  }, [currentSlide]);
+  }, [currentSlide,imageData.length]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -44,7 +44,7 @@ const Slider = () => {
         }}
       >
         <div className="sliderItem">
-          <img src={imageData[0]} alt="" />
+          <img src={imageData[0]} alt="School" />
           <div className="sliderDiv">
             <h2 className="noSelect">GREAT DEAL ON</h2>
             <h2 className="biggerTitle noSelect">STATIONARY</h2>
@@ -52,7 +52,7 @@ const Slider = () => {
           </div>
         </div>
         <div className="sliderItem">
-          <img src={imageData[1]} alt="" />
+          <img src={imageData[1]} alt="Office" />
           <div className="sliderDiv">
             <h2 className="noSelect">OFFICE STATIONARY</h2>
             <h2 className="biggerTitle noSelect">%20 DISCOUNT</h2>
@@ -60,7 +60,7 @@ const Slider = () => {
           </div>
         </div>
         <div className="sliderItem">
-          <img src={imageData[2]} alt="" />
+          <img src={imageData[2]} alt="Gifts" />
           <div className="sliderDiv">
             <h2 className="noSelect">GIFTS & DECORATIONS</h2>
             <h2 className="biggerTitle noSelect">%10 DISCOUNT</h2>

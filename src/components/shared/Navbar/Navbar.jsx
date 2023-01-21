@@ -1,34 +1,34 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Button from "../../UIElements/Button/Button";
 import classes from "./Navbar.module.scss";
 
 const Navbar = () => {
   return (
     <div className={classes.navbar}>
       <div id="cat1">
-        <Link className="link" to="/schoolstationery">
+        <Button className="link" to="/">
           School
-        </Link>
+        </Button>
       </div>
       <div id="cat2">
-        <Link className="link" to="/officestationery">
+        <Button className="link" to="/">
           Office
-        </Link>
+        </Button>
       </div>
       <div id="cat3">
-        <Link className="link" to="/giftanddecorations">
+        <Button className="link" to="/">
           Gifts & Decorations
-        </Link>
+        </Button>
       </div>
       <div id="cat4">
-        <Link className="link" to="/about">
+        <Button className="link" to="/">
           About
-        </Link>
+        </Button>
       </div>
       <div id="cat5">
-        <Link className="link" to="/contact">
+        <Button className="link" to="/">
           Contact
-        </Link>
+        </Button>
       </div>
     </div>
   );

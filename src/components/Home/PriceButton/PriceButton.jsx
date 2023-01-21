@@ -1,12 +1,13 @@
 import React from "react";
+import Button from "../../UIElements/Button/Button";
 import classes from "./PriceButton.module.scss";
 
 const PriceButton = ({ price, oldPrice, onClick }) => {
   return (
     <div className={classes.priceContainer}>
-      <button onClick={onClick}>
+      <Button onClick={onClick} dataTestid="priceButtonClick">
         <span>${price}</span>
-      </button>
+      </Button>
       <div className={classes.oldPrice}>${oldPrice}</div>
     </div>
   );

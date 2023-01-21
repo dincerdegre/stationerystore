@@ -16,9 +16,9 @@ const CartItem = ({ id, title, image, quantity, price, onDelete, closeSelector }
   }, [selectedAmount, id,cartContext]);
   
   return (
-    <div className={classes.cartItem} id={id}>
+    <div className={classes.cartItem} id={`cart-${id}`}  data-testid="cartItem">
       <div className={classes.imageContainer}>
-        <img src={image[0]} alt={title} />
+       {image && <img src={image[0]} alt={title} /> } 
       </div>
       <div className={classes.detailsContainer}>
         <h3>{title}</h3>

@@ -32,5 +32,33 @@
   .oldPrice {
     color: rgb(131, 131, 131);
     text-decoration: line-through;
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 1439px) and (min-width: 1280px) {
+  .priceContainer {
+    button {
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+    .oldPrice {font-size: 0.9rem;}
+  }
+}
+@media only screen and (max-width: 1279px) and (min-width: 1140px) {
+  .priceContainer {
+    button {
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+    .oldPrice {font-size: 0.8rem;}
+  }
+}
+@media only screen and (max-width: 1139px) and (min-width: 1024px) {
+  .priceContainer {
+    button {
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+    .oldPrice {font-size: 0.8rem;}
   }
 }

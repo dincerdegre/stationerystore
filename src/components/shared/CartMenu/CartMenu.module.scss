@@ -78,3 +78,6 @@
     }
   }
 }
+@media only screen and (max-width: 479px) {
+  .cartMenu {right:0;left:0;min-width: 100%;}
+}

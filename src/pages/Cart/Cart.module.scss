@@ -22,7 +22,7 @@
     .left {
       flex: 2;
       border-right: 1px solid rgb(233, 233, 233);
-      padding:0 2rem;
+      padding: 0 2rem;
       .emptyCart {
         width: 100%;
         padding: 1rem 0;
@@ -61,6 +61,33 @@
           }
         }
       }
+    }
+  }
+}
+@media only screen and (max-width: 1279px) and (min-width: 960px) {
+  .cartPageContainer {
+    width: 96%;
+    .middle {
+      width: 98%;
+    }
+  }
+}
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+  .cartPageContainer {
+    width: 99%;
+    .middle {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cartPageContainer {
+    width: 99%;
+    .middle {
+      width: 100%;
+      flex-direction: column;
+      .left,.right {flex:none;}
+      .left {padding-bottom:2rem;border-right:none;}
     }
   }
 }

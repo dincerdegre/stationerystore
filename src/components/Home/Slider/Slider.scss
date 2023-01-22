@@ -47,11 +47,11 @@
       }
       .noSelect {
         -webkit-touch-callout: none; /* iOS Safari */
-          -webkit-user-select: none; /* Safari */
-           -khtml-user-select: none; /* Konqueror HTML */
-             -moz-user-select: none; /* Old versions of Firefox */
-              -ms-user-select: none; /* Internet Explorer/Edge */
-                  user-select: none; /* Non-prefixed version, currently
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently
                                         supported by Chrome, Edge, Opera and Firefox */
       }
       img {
@@ -102,13 +102,95 @@
         width: 14px;
         height: 14px;
         margin: 0 0.2rem;
-        background: #fff!important;
+        background: #fff !important;
         border-radius: 100px;
         cursor: pointer;
       }
       li.pagingItem.active {
-        background: #202020!important;
+        background: #202020 !important;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .slider {
+    height: calc(70vh - 120px);
+    .sliderContainer {
+      .sliderItem {
+        .sliderDiv {
+          font-size: 1.2rem;
+          h2 {
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            color: #a4161a;
+          }
+          h2.biggerTitle {
+            font-size: 3rem;
+            line-height: 4rem;
+            color: #161a1d;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .slider {
+    height: calc(70vh - 120px);
+    .sliderContainer {
+      .sliderItem {
+        .sliderDiv {
+          font-size: 1rem;
+          padding: calc(35vh - 160px) 0 5rem 0;
+          h2 {
+            font-size: 1.2rem;
+            line-height: 1.4rem;
+            color: #a4161a;
+          }
+          h2.biggerTitle {
+            font-size: 2.7rem;
+            line-height: 3.5rem;
+            color: #161a1d;
+          }
+          p {
+            max-width: 400px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .slider {
+    height: calc(70vh - 120px);
+    .sliderContainer {
+      .sliderItem {
+        .sliderDiv {
+          font-size: 1rem;
+          padding: calc(35vh - 160px) 0 5rem 0;
+          h2 {
+            font-size: 1.1rem;
+            line-height: 1.2rem;
+            color: #a4161a;
+          }
+          h2.biggerTitle {
+            font-size: 2rem;
+            line-height: 3.5rem;
+            color: #161a1d;
+          }
+          p {
+            max-width: 250px;
+          }
+        }
+      }
+    }
+    .prev {
+      left: 0.2rem;
+    }
+    .next {
+      right: 0.2rem;
     }
   }
 }

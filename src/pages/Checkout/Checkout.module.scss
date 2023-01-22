@@ -62,3 +62,30 @@
     }
   }
 }
+@media only screen and (max-width: 1279px) and (min-width: 960px) {
+  .checkoutContainer {
+    width: 96%;
+    .middle {
+      width: 98%;
+    }
+  }
+}
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+  .checkoutContainer {
+    width: 99%;
+    .middle {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .checkoutContainer {
+    width: 99%;
+    .middle {
+      width: 100%;
+      flex-direction: column;
+      .left,.right {flex:none;}
+      .left {padding-bottom:2rem;border-right:none;padding:0;}
+    }
+  }
+}

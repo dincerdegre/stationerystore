@@ -22,7 +22,7 @@
     align-items: center;
     font-size: 2rem;
     letter-spacing: 2px;
-    flex: 2;
+    flex: 3;
     justify-content: flex-start;
     .link {font-weight:600;}
     .link:hover {color:#a4161a;}
@@ -38,5 +38,23 @@
       flex: 2;
       justify-content: flex-end;
       align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 1024px) {
+  .wrapper {
+    .left {font-size: 1.5rem;flex: 2.7;}
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 480px) {
+  .wrapper {
+    .left {font-size: 1.5rem;}
+    .center {display:none;}
+  }
+}
+@media only screen and (max-width: 479px) {
+  .wrapper {
+    .left {font-size: 1.2rem;}
+    .center {display:none;}
   }
 }

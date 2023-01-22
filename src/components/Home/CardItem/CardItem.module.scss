@@ -24,6 +24,7 @@
       right: 0;
       img {
         max-width: 100%;
+        margin: 0 auto;
         height: auto;
         display: block;
         object-fit: cover;
@@ -33,6 +34,7 @@
   .infoContainer {
     padding: 1.5rem 0.5rem 0.5rem 0.5rem;
     width: 90%;
+    margin:0 auto;
     h3 {
       font-size: 1.1rem;
       padding-bottom: 0.2rem;
@@ -46,8 +48,61 @@
   .priceInfoContainer {
     padding: 0.5rem 0.5rem 1rem 0.5rem;
     width: 90%;
+    margin:0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 }
+
+@media only screen and (max-width: 1139px) and (min-width: 1024px) {
+  .cardItem {
+    width: 25%;
+    margin: 0 0 5%;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width:960px) {
+  .cardItem {
+    width: 33%;
+    margin: 0 0 5%;
+  }
+}
+@media only screen and (max-width: 959px) and (min-width:600px) {
+  .cardItem {
+    width: 49%;
+    margin: 0 0 5%;
+    .imageContainer {
+      padding-bottom: 84.25%;
+    }
+  }
+}
+@media only screen and (max-width: 599px) and (min-width:320px) {
+  .cardItem {
+    width: 99%;
+    margin: 0 0 5%;
+    .imageContainer {
+      padding-bottom: 79.25%;
+      .imageWrapper {
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 319px) {
+  .cardItem {
+    width: 99%;
+    margin: 0 0 5%;
+    .imageContainer {
+      padding-bottom: 74.25%;
+      .imageWrapper {
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+

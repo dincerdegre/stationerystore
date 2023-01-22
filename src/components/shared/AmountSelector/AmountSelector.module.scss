@@ -38,3 +38,21 @@
     color: rgb(49, 49, 49);
   }
 }
+@media only screen and (max-width: 1439px) and (min-width: 1140px) {
+  .selectorContainer {
+    .mediumSize {
+      font-size: 0.9rem;
+    line-height: 0.6rem;
+    padding: 0.6rem 0.8rem;
+    }
+  }
+}
+@media only screen and (max-width: 1139px) and (min-width: 1024px) {
+  .selectorContainer {
+    .mediumSize {
+      font-size: 0.9rem;
+    line-height: 0.6rem;
+    padding: 0.6rem 0.8rem;
+    }
+  }
+}

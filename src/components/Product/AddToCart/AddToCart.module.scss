@@ -17,3 +17,23 @@
     background-color: rgb(34, 197, 94, 1);
   }
 }
+@media only screen and (max-width: 1023px) and (min-width: 480px){
+  .addtoCart {
+    width:inherit;
+    padding:10px 20px 10px 20px;
+  }
+}
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+  .addtoCart {
+    width:250px;
+    margin-left:0;
+    margin-top:1rem;
+  }
+}
+@media only screen and (max-width: 319px) {
+  .addtoCart {
+    width:inherit;
+    margin-left:0;
+    margin-top:1rem;
+  }
+}

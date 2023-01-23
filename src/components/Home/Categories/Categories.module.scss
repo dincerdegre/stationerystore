@@ -1,3 +1,4 @@
+@import "../../../variables.scss";
 .categories {
   margin: 0 auto;
   padding: 4rem 0 2rem 0;
@@ -5,7 +6,7 @@
   h2 {
     font-size: 2rem;
     padding-bottom: 3rem;
-    color: #161a1d;
+    color: $header-two;
   }
   .container {
     display: flex;

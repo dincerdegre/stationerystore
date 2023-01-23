@@ -1,5 +1,6 @@
+@import "../../../variables.scss";
 .newsletter {
-  background-color: rgb(240, 240, 240);
+  background-color: $newsletter-bgcolor;
   color: inherit;
   font-size: 1.4rem;
   padding: 1rem 0;
@@ -23,15 +24,15 @@
       }
       button {
         padding: 10px;
-        color: white;
+        color: $white;
         font-size: 1rem;
-        background-color: #ba181b;
+        background-color: $secondary-color;
         font-weight: 600;
         border-radius: 0 5px 5px 0;
         border: none;
         cursor: pointer;
         &:hover {
-          background-color: #8a1618;
+          background-color: $newsletter-button-hover;
         }
       }
     }

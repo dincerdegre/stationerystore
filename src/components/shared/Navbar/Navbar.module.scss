@@ -1,3 +1,4 @@
+@import "../../../variables.scss";
 .navbar {
     display: flex;
     align-items: center;
@@ -11,8 +12,8 @@
         border-radius: 0.5rem;
         cursor: pointer;
         &:hover {
-            background-color: rgb(243, 243, 243);
-            color:#a4161a;
+            background-color: $card-border;
+            color:$newsletter-button-hover;
         }
     }
 }

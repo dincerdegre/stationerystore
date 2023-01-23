@@ -1,3 +1,4 @@
+@import "../../../variables.scss";
 .selectorContainer {
   display: flex;
   align-items: center;
@@ -5,7 +6,7 @@
   flex-basis: 0;
   font-weight: 900;
   max-width: 100%;
-  border: 2px solid rgb(243, 243, 243);
+  border: 2px solid $card-border;
   border-radius: 0.5rem;
   .smallSize {
     font-size: 0.8rem;
@@ -28,14 +29,16 @@
     border: none;
     cursor: pointer;
     font-weight: 700;
-    background-color: rgb(233, 233, 233);
-    color: rgb(49, 49, 49);
+    display: block;
+    background-color: $card-border;
+    color: $title-color;
+    border-radius: 0.5rem;
     &:hover {
-      background-color: rgb(243, 243, 243);
+      background-color: $input-color-first;
     }
   }
   .quantity {
-    color: rgb(49, 49, 49);
+    color: $banner-color;
   }
 }
 @media only screen and (max-width: 1439px) and (min-width: 1140px) {

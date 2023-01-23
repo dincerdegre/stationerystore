@@ -1,3 +1,4 @@
+@import "../../../variables.scss";
 .slider {
   height: calc(80vh - 120px);
   width: 100vw;
@@ -27,20 +28,20 @@
         line-height: 2rem;
         letter-spacing: 0.1rem;
         font-weight: 400;
-        color: #b1a7a6;
+        color: $card-color;
         h2 {
           font-size: 1.6rem;
           line-height: 2rem;
-          color: #a4161a;
+          color: $newsletter-button-hover;
         }
         h2.biggerTitle {
           font-size: 4rem;
           line-height: 5rem;
-          color: #161a1d;
+          color: $header-two;
         }
         p {
-          background-color: #161a1d;
-          color: #d3d3d3;
+          background-color: $header-two;
+          color: $banner-bgcolor;
           padding: 0.5rem;
           display: inline-block;
         }
@@ -102,12 +103,12 @@
         width: 14px;
         height: 14px;
         margin: 0 0.2rem;
-        background: #fff !important;
+        background: $white !important;
         border-radius: 100px;
         cursor: pointer;
       }
       li.pagingItem.active {
-        background: #202020 !important;
+        background: $banner-color !important;
       }
     }
   }
@@ -123,12 +124,10 @@
           h2 {
             font-size: 1.4rem;
             line-height: 1.6rem;
-            color: #a4161a;
           }
           h2.biggerTitle {
             font-size: 3rem;
             line-height: 4rem;
-            color: #161a1d;
           }
         }
       }
@@ -146,12 +145,10 @@
           h2 {
             font-size: 1.2rem;
             line-height: 1.4rem;
-            color: #a4161a;
           }
           h2.biggerTitle {
             font-size: 2.7rem;
             line-height: 3.5rem;
-            color: #161a1d;
           }
           p {
             max-width: 400px;
@@ -173,12 +170,10 @@
           h2 {
             font-size: 1.1rem;
             line-height: 1.2rem;
-            color: #a4161a;
           }
           h2.biggerTitle {
             font-size: 2rem;
             line-height: 3.5rem;
-            color: #161a1d;
           }
           p {
             max-width: 250px;

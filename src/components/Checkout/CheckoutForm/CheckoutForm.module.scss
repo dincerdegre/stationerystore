@@ -1,3 +1,4 @@
+@import "../../../variables.scss";
 .checkoutForm {
   width: 100%;
   h3 {
@@ -9,7 +10,7 @@
     label {
       display: inline-block;
       margin: 1rem 0 0.3rem 0;
-      color: rgb(83, 83, 83);
+      color: $dark-gray;
       font-size: 0.9rem;
     }
     input {
@@ -19,18 +20,18 @@
       margin: 0.5rem 0;
       font-size: 1rem;
       border-radius: 0.5rem;
-      border: 1px solid rgb(228, 228, 228);
+      border: 1px solid $input-color-first;
       &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: rgb(206, 206, 206);
+        color: $input-color-second;
         opacity: 1; /* Firefox */
       }
       
       &:-ms-input-placeholder { /* Internet Explorer 10-11 */
-        color: rgb(228, 228, 228);
+        color: $input-color-first;
       }
       
       &::-ms-input-placeholder { /* Microsoft Edge */
-        color: rgb(228, 228, 228);
+        color: $input-color-first;
       }
     }
     textarea {
@@ -39,7 +40,7 @@
       margin: 0.5rem 0;
       font-size: 1rem;
       border-radius: 0.5rem;
-      border: 1px solid rgb(228, 228, 228);
+      border: 1px solid $input-color-first;
     }
   }
   .flex {

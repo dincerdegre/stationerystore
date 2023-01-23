@@ -1,3 +1,4 @@
+@import "../../../variables.scss";
 .summary {
   display: flex;
   flex-direction: column;
@@ -7,16 +8,16 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0.8rem;
-    border-bottom: 1px solid rgb(233, 233, 233);
+    border-bottom: 1px solid $light-gray;
     .title {
       font-size: 1rem;
       font-weight: 500;
-      color: rgb(31, 31, 31);
+      color: $title-color;
     }
     .amount {
       font-size: 1rem;
       font-weight: 600;
-      color: rgb(85, 85, 85);
+      color: $dark-gray;
     }
     .total {
         font-size: 1.2rem;

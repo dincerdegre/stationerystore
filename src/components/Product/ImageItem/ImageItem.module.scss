@@ -1,9 +1,10 @@
+@import "../../../variables.scss";
 .mainImage {
   width: 99%;
   height: auto;
   margin: 0 auto;
   flex: 5;
-  border: 2px solid rgb(248 250 252);
+  border: 2px solid $card-border;
   border-radius: 1rem;
   overflow: hidden;
   display: flex;
@@ -28,14 +29,14 @@
     margin: 0 1% 0 0;
     object-fit: cover;
     cursor: pointer;
-    border: 2px solid rgb(248 250 252);
+    border: 2px solid $card-border;
     border-radius: 0.4rem;
     overflow: hidden;
     &:last-child {
       margin-right: 0;
     }
     &:hover {
-      border: 2px solid rgb(238, 238, 238);
+      border: 2px solid $input-color-first;
     }
   }
 }

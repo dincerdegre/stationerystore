@@ -1,10 +1,11 @@
+@import "../../variables.scss";
 .cartPageContainer {
   width: 80%;
   margin: 3rem auto;
   .top {
     width: 100%;
     padding-bottom: 3rem;
-    border-bottom: 1px solid rgb(233, 233, 233);
+    border-bottom: 1px solid $light-gray;
   }
   h2 {
     font-size: 2.5rem;
@@ -21,8 +22,8 @@
     padding: 2rem 0;
     .left {
       flex: 2;
-      border-right: 1px solid rgb(233, 233, 233);
-      padding:0 2rem;
+      border-right: 1px solid $light-gray;
+      padding: 0 2rem;
       .emptyCart {
         width: 100%;
         padding: 1rem 0;
@@ -49,18 +50,45 @@
             padding: 0.8rem 0;
             border-radius: 0.3rem;
             font-size: 1.1rem;
-            border: 1px solid rgb(236, 236, 236);
+            border: 1px solid $input-color-second;
             text-align: center;
             cursor: pointer;
             overflow: hidden;
-            background-color: rgb(24, 129, 63);
-            color: white;
+            background-color: $add-to-cart-color;
+            color: $white;
             &:hover {
-              background-color: rgb(34, 197, 94, 1);
+              background-color: $price-color;
             }
           }
         }
       }
+    }
+  }
+}
+@media only screen and (max-width: 1279px) and (min-width: 960px) {
+  .cartPageContainer {
+    width: 96%;
+    .middle {
+      width: 98%;
+    }
+  }
+}
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+  .cartPageContainer {
+    width: 99%;
+    .middle {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cartPageContainer {
+    width: 99%;
+    .middle {
+      width: 100%;
+      flex-direction: column;
+      .left,.right {flex:none;}
+      .left {padding-bottom:2rem;border-right:none;}
     }
   }
 }

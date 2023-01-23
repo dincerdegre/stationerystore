@@ -1,4 +1,6 @@
+@import "../../../variables.scss";
 .checkoutForm {
+  width: 100%;
   h3 {
     font-size: 1.5rem;
     padding: 1.5rem 0 1.2rem 0;
@@ -6,29 +8,30 @@
   .item {
     width: 60%;
     label {
-      display: block;
+      display: inline-block;
       margin: 1rem 0 0.3rem 0;
-      color: rgb(83, 83, 83);
+      color: $dark-gray;
       font-size: 0.9rem;
     }
     input {
+      display:inline-block;
       width: 100%;
       padding: 0.8rem 1rem;
       margin: 0.5rem 0;
       font-size: 1rem;
       border-radius: 0.5rem;
-      border: 1px solid rgb(228, 228, 228);
+      border: 1px solid $input-color-first;
       &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: rgb(206, 206, 206);
+        color: $input-color-second;
         opacity: 1; /* Firefox */
       }
       
       &:-ms-input-placeholder { /* Internet Explorer 10-11 */
-        color: rgb(228, 228, 228);
+        color: $input-color-first;
       }
       
       &::-ms-input-placeholder { /* Microsoft Edge */
-        color: rgb(228, 228, 228);
+        color: $input-color-first;
       }
     }
     textarea {
@@ -37,7 +40,7 @@
       margin: 0.5rem 0;
       font-size: 1rem;
       border-radius: 0.5rem;
-      border: 1px solid rgb(228, 228, 228);
+      border: 1px solid $input-color-first;
     }
   }
   .flex {
@@ -47,5 +50,31 @@
     .half {
         width: 45%;
     }
+  }
+}
+@media only screen and (max-width: 1439px) and (min-width: 1280px) {
+  .checkoutForm {
+    width: 96%;
+    .item {width: 90%;}
+  }
+}
+@media only screen and (max-width: 1279px) and (min-width: 1024px) {
+  .checkoutForm {
+    width: 96%;
+    .item {width: 84%;}
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .checkoutForm {
+    width: 96%;
+    margin:0 auto;
+    .item {width: 92%;}
+  }
+}
+@media only screen and (max-width: 767px) {
+  .checkoutForm {
+    width: 96%;
+    margin: 0 auto;
+    .item {width: 92%;}
   }
 }

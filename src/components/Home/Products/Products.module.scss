@@ -1,7 +1,7 @@
 .products {
-    margin: 0 auto;
+  margin: 0 auto;
   padding: 4rem 0;
-  width: 80%;
+  width: 90%;
   .top {
     margin: 0 auto;
     padding:2rem 0;
@@ -12,5 +12,12 @@
     width: 95%;
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1439px) {
+  .products {
+    width: 99%;
+    .container {width: 99%;}
   }
 }

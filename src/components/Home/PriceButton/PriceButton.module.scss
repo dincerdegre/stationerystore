@@ -1,14 +1,15 @@
+@import "../../../variables.scss";
 .priceContainer {
   display: flex;
   align-items: center;
   button {
-    background-color: white;
+    background-color: $white;
     margin: 0 0.5rem 0 0;
-    border: 2px solid rgb(34, 197, 94, 1);
+    border: 2px solid $price-color;
     border-radius: 0.5rem;
     padding: 0.3rem 0;
     text-align: center;
-    color: rgb(34, 197, 94, 1);
+    color: $price-color;
     font-weight: 700;
     cursor: pointer;
     font-size: 1.1rem;
@@ -20,7 +21,7 @@
     -webkit-transition: all 0.3s ease 0s;
     &:hover {
       color: azure;
-      background-color: rgb(34, 197, 94, 1);
+      background-color: $price-color;
       span {
         display: none;
       }
@@ -30,7 +31,35 @@
     }
   }
   .oldPrice {
-    color: rgb(131, 131, 131);
+    color: $card-color;
     text-decoration: line-through;
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 1439px) and (min-width: 1280px) {
+  .priceContainer {
+    button {
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+    .oldPrice {font-size: 0.9rem;}
+  }
+}
+@media only screen and (max-width: 1279px) and (min-width: 1140px) {
+  .priceContainer {
+    button {
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+    .oldPrice {font-size: 0.8rem;}
+  }
+}
+@media only screen and (max-width: 1139px) and (min-width: 1024px) {
+  .priceContainer {
+    button {
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+    .oldPrice {font-size: 0.8rem;}
   }
 }

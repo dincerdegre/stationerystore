@@ -1,5 +1,6 @@
+@import "../../../variables.scss";
 .container {
-  width: 30%;
+  width: 100%;
   margin: 0 0.4rem;
   overflow: hidden;
   position: relative;
@@ -7,7 +8,7 @@
   .bannerItem {
     width: 100%;
     padding-bottom: 56.25%;
-    background-color: #c7c7c7;
+    background-color: $item-bgcolor;
     position: relative;
     overflow: hidden;
     justify-content: center;
@@ -42,7 +43,7 @@
       -webkit-transform: scale(1.15);
       transform: scale(1.15);
       -moz-transform: scale(1.15);
-      color: #ba181b;
+      color: $secondary-color;
     }
     &:hover .textCenter .title,
     &:hover .textLeft .title,
@@ -86,9 +87,9 @@
       text-align: left;
     }
     .title {
-      background-color: #ba181b;
+      background-color: $secondary-color;
       padding: 0.5rem 1rem;
-      color: #fff;
+      color: $white;
       display: inline-block;
       margin: 0 auto;
       font-size: 1rem;
@@ -102,17 +103,163 @@
     }
     .desc {
       margin: 0 auto;
-      background-color: #d3d3d3;
+      background-color: $banner-bgcolor;
       padding: 0.3rem 1.5rem;
       font-size: 3.5rem;
       font-weight: 700;
-      color: #161a1d;
+      color: $banner-color;
       display: inline-block;
       text-transform: uppercase;
       transition: all 0.5s ease 0s;
       -moz-transition: all 0.5s ease 0s;
       -o-transition: all 0.5s ease 0s;
       -webkit-transition: all 0.5s ease 0s;
+    }
+  }
+}
+@media only screen and (max-width: 1279px) and (min-width: 1024px) {
+  .container {
+    .bannerItem {
+      .title {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+      }
+      .desc {
+        padding: 0.3rem 1.5rem;
+        font-size: 3rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    width: 48%;
+    margin-bottom: 1rem;
+    .bannerItem {
+      .textLeft,.textCenter,.textRight {
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        top: 30%;
+        text-align: center !important;
+      }
+      .title {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+      }
+      .desc {
+        padding: 0.3rem 1.5rem;
+        font-size: 3rem;
+      }
+      
+    }
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 600px) {
+  .container {
+    width: 70%;
+    margin-bottom: 1rem;
+    .bannerItem {
+      .textRight,.textLeft,.textCenter {
+        position: absolute;
+        left: auto;
+        right: auto;
+        display: flex;
+        flex-direction: column;
+        top: 30%;
+        text-align: center !important;
+      }
+      .title {
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+      }
+      .desc {
+        padding: 0.3rem 1.5rem;
+        font-size: 3.8rem;
+      }
+      
+    }
+  }
+}
+@media only screen and (max-width: 599px) and (min-width: 480px) {
+  .container {
+    width: 90%;
+    margin-bottom: 1rem;
+    .bannerItem {
+      .textRight,.textLeft,.textCenter {
+        position: absolute;
+        left: auto;
+        right: auto;
+        display: flex;
+        flex-direction: column;
+        top: 30%;
+        text-align: center !important;
+      }
+      .title {
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+      }
+      .desc {
+        padding: 0.3rem 1.5rem;
+        font-size: 3.8rem;
+      }
+      
+    }
+  }
+}
+
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+  .container {
+    width: 90%;
+    margin-bottom: 1rem;
+    .bannerItem {
+      .textRight,.textLeft,.textCenter {
+        position: absolute;
+        left: auto;
+        right: auto;
+        display: flex;
+        flex-direction: column;
+        top: 30%;
+        text-align: center !important;
+      }
+      .title {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+      }
+      .desc {
+        padding: 0.3rem 1.5rem;
+        font-size: 2.5rem;
+      }
+      
+    }
+  }
+}
+
+@media only screen and (max-width: 319px)  {
+  .container {
+    width: 90%;
+    margin-bottom: 1rem;
+    .bannerItem {
+      .textRight,.textLeft,.textCenter {
+        position: absolute;
+        left: auto;
+        right: auto;
+        display: flex;
+        flex-direction: column;
+        top: 30%;
+        text-align: center !important;
+      }
+      .title {
+        padding: 0.5rem 1rem;
+        font-size: 0.6rem;
+      }
+      .desc {
+        padding: 0.3rem 1.5rem;
+        font-size: 1.8rem;
+      }
+      
     }
   }
 }

@@ -44,3 +44,36 @@
     }
   }
 }
+@media only screen and (max-width: 1279px) and (min-width: 1140px) {
+  .productContainer {
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 1139px) and (min-width: 1024px) {
+  .productContainer {
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 1023px)  and (min-width: 480px){
+  .productContainer {
+    width: 84%;
+    flex-direction: column;
+    .left, .right {
+      flex:none;
+    }
+  }
+}
+@media only screen and (max-width: 479px){
+  .productContainer {
+    width: 99%;
+    flex-direction: column;
+    .left, .right {
+      flex:none;
+    }
+    .right {
+      .info {
+        .amountCartInfo {justify-content: center;}
+      }
+    }
+  }
+}

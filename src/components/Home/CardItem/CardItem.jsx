@@ -27,7 +27,7 @@ const CardItem = ({id, title, excerpt, image, slug,price, oldPrice }) => {
       <div className={classes.imageContainer}>
         <Button to={`/product/${slug}`} dataTestid="cardLink">
           <div className={classes.imageWrapper}>
-            {image && <img src={image[0]} alt={title} /> }
+            {image && <img src={image[0]} alt={title}  loading={"lazy"} /> }
           </div>
         </Button>
       </div>

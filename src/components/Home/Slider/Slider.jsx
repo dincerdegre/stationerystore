@@ -52,7 +52,7 @@ const Slider = () => {
           </div>
         </div>
         <div className="sliderItem">
-          <img src={imageData[1]} alt="Office" />
+          <img src={imageData[1]} alt="Office" loading={"lazy"}  />
           <div className="sliderDiv">
             <h2 className="noSelect">OFFICE STATIONARY</h2>
             <h2 className="biggerTitle noSelect">%20 DISCOUNT</h2>

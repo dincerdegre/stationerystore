@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import Button from '../../UIElements/Button/Button';
 import CartMenu from "../../shared/CartMenu/CartMenu";
 import HeaderRight from "../../shared/HeaderRight/HeaderRight";

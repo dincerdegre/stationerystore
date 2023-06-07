@@ -15,7 +15,7 @@ const BannerItem = ({ title, desc, image, link, align }) => {
     <div className={classes.container}>
       <div className={classes.bannerItem}>
         <div className={classes.imageContainer}>
-          <img src={image} alt={title} loading={"lazy"} />
+          <img src={image} alt={title} />
         </div>
         <div className={titleAlign}>
             <div className={classes.title}>{title}</div>

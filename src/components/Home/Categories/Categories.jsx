@@ -10,7 +10,7 @@ const Categories = () => {
         <BannerItem
           link="/"
           image="/images/promobanner/daian-gan-8_d05sj9JVc-unsplash.jpg"
-          title="School Stationary Items"
+          title="School Stationery Items"
           desc="save 30%"
           align="left"
         />
@@ -23,7 +23,7 @@ const Categories = () => {
         <BannerItem
           link="/"
           image="/images/promobanner/northfolk-Ok76F6yW2iA-unsplash.jpg"
-          title="Office Stationary Items"
+          title="Office Stationery Items"
           desc="save 20%"
           align="right"
         />

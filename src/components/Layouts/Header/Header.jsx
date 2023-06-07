@@ -32,7 +32,7 @@ const Header = () => {
       <div className={classes.wrapper}>
         <div className={classes.left}>
           <Button className="link" to="/">
-            STATIONARY STORE
+            STATIONERY STORE
           </Button>
         </div>
         <div className={classes.center}>

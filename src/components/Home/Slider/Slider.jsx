@@ -13,25 +13,33 @@ const Slider = () => {
 
   const nextSlideHandler = useCallback(() => {
     setCurrentSlide(
-      currentSlide === imageData.length - 1 ? 0 : (prev) => prev + 1
+      currentSlide === imageData.length - 1 ? 0 : (prev) => prev + 1,
     );
-  }, [currentSlide,imageData.length]);
+  }, [currentSlide, imageData.length]);
 
   const prevSlideHandler = useCallback(() => {
     setCurrentSlide(
-      currentSlide === 0 ? imageData.length - 1 : (prev) => prev - 1
+      currentSlide === 0 ? imageData.length - 1 : (prev) => prev - 1,
     );
-  }, [currentSlide,imageData.length]);
+  }, [currentSlide, imageData.length]);
+
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlideHandler();
-    }, 3000);
-    return () => clearInterval(interval);
+      const interval = setInterval(() => {
+        nextSlideHandler();
+      }, 3000);
+      return () => clearInterval(interval);
   }, [nextSlideHandler]);
 
-  const listItems = imageData.map((value,index)=>(
-    <li key={index+1} className={`pagingItem ${currentSlide === index ? "active": ""}`} onClick={()=>{setCurrentSlide(index)}}></li>
+
+  const listItems = imageData.map((value, index) => (
+    <li
+      key={index + 1}
+      className={`pagingItem ${currentSlide === index ? "active" : ""}`}
+      onClick={() => {
+        setCurrentSlide(index);
+      }}
+    ></li>
   ));
 
   return (
@@ -47,16 +55,20 @@ const Slider = () => {
           <img src={imageData[0]} alt="School" />
           <div className="sliderDiv">
             <h2 className="noSelect">GREAT DEAL ON</h2>
-            <h2 className="biggerTitle noSelect">STATIONARY</h2>
-            <p className="noSelect">Best online store for School Stationary and More</p>
+            <h2 className="biggerTitle noSelect">STATIONERY</h2>
+            <p className="noSelect">
+              Best online store for School Stationery and More
+            </p>
           </div>
         </div>
         <div className="sliderItem">
-          <img src={imageData[1]} alt="Office" loading={"lazy"}  />
+          <img src={imageData[1]} alt="Office" />
           <div className="sliderDiv">
-            <h2 className="noSelect">OFFICE STATIONARY</h2>
+            <h2 className="noSelect">OFFICE STATIONERY</h2>
             <h2 className="biggerTitle noSelect">%20 DISCOUNT</h2>
-            <p className="noSelect">Best online store for Office Stationary Items</p>
+            <p className="noSelect">
+              Best online store for Office Stationery Items
+            </p>
           </div>
         </div>
         <div className="sliderItem">
@@ -64,7 +76,9 @@ const Slider = () => {
           <div className="sliderDiv">
             <h2 className="noSelect">GIFTS & DECORATIONS</h2>
             <h2 className="biggerTitle noSelect">%10 DISCOUNT</h2>
-            <p className="noSelect">Best online store for Gifts and Decorations Items</p>
+            <p className="noSelect">
+              Best online store for Gifts and Decorations Items
+            </p>
           </div>
         </div>
       </div>
@@ -79,9 +93,7 @@ const Slider = () => {
         </div>
       </div>
       <div className="sliderDots">
-        <ul>
-          {listItems}
-        </ul>
+        <ul>{listItems}</ul>
       </div>
     </div>
   );

@@ -24,7 +24,7 @@ const Cart = () => {
 
   const totalPrice = (shipping = 5.0) => {
     const pretotal = parseFloat(subtotalPrice()) + parseFloat(taxAmount());
-    let total;
+    let total = 0;
     if (pretotal !== 0) {
       total = pretotal + shipping;
     }

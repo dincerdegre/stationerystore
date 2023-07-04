@@ -23,8 +23,11 @@ const Cart = () => {
   };
 
   const totalPrice = (shipping = 5.0) => {
-    const total =
-      parseFloat(subtotalPrice()) + parseFloat(taxAmount()) + shipping;
+    const pretotal = parseFloat(subtotalPrice()) + parseFloat(taxAmount());
+    let total;
+    if (pretotal !== 0) {
+      total = pretotal + shipping;
+    }
     return total.toFixed(2);
   };
 
@@ -44,7 +47,15 @@ const Cart = () => {
             <div className={classes.emptyCart}>Cart is Empty</div>
           )}
           {products?.map((item) => (
-            <CartItem key={item.id} id={item.id} title={item.title} image={item.image} quantity={item.quantity} price={item.price} onDelete={removeItemHandler} />
+            <CartItem
+              key={item.id}
+              id={item.id}
+              title={item.title}
+              image={item.image}
+              quantity={item.quantity}
+              price={item.price}
+              onDelete={removeItemHandler}
+            />
           ))}
         </div>
         <div className={classes.right}>
@@ -57,7 +68,7 @@ const Cart = () => {
               total={totalPrice()}
             />
             <div className={classes.checkout}>
-            <Button to="/checkout">Checkout</Button>
+              <Button to="/checkout">Checkout</Button>
             </div>
           </div>
         </div>
